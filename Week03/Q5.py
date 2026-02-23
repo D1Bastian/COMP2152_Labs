@@ -15,4 +15,3 @@ print(f"Contacts after removing Charlie: {contacts}")
 print(f"Total contacts: {len(contacts) }")
 print(f"All names: {contacts.keys( )}")
 print(f"All numbers: {contacts.values( )}")
-
