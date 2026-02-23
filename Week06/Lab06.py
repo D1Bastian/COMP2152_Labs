@@ -1,7 +1,7 @@
 # ============================================================
 #  WEEK 06 LAB: NETWORK DIAGNOSTIC LOGGER
 #  COMP2152 — Windows Version
-#  [Your Name Here]
+#  [John Sebastian Laquis]
 # ============================================================
 #
 #  This program runs network commands (ping, nslookup, ipconfig),
@@ -368,10 +368,15 @@ def safe_read_log(filename):
     try:
         with open(filename, "r") as file:
             data = file.read()
+            if data == "":
+                print("Log file is empty.")
+                return ""
+            else:
+                return data
     except FileNotFoundError:
         print("No log file found. Run a diagnostic first.")
     finally:
-        print("This always runs, whether there was an error or not.")
+        print("This always runs, whether there was an error or not. | Log read attempt completed!!!!")
 
         
 
