@@ -1,0 +1,10 @@
+[2026-02-23 17:42:39] PING georgebrown.ca
+
+Pinging georgebrown.ca [10.10.12.136] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Reply from 10.4.128.1: Destination net unreachable.
+
+Ping statistics for 10.10.12.136:
+    Packets: Sent = 3, Received = 1, Lost = 2 (66% loss),
+----------------------------------------
